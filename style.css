@@ -24,6 +24,11 @@ a{
     font-family: Helvetica;
     font-size: 15px;
 }
+.one-fourth{
+    width: 25%;
+    float:left;
+    text-align: center;
+}
 ul {
     list-style-type: none;
 }
@@ -69,13 +74,42 @@ img{
     margin-top: 50px;
 }
 #user{
-    background-color: #999999;
+    background-color: #393939;
+    padding-top: 6%;
 }
-.one-fourth{
-    width: 25%;
-    float:left;
+#projects{
+    background-color: #393939;
+    padding-top: 6%;
+}
+#designs{
+    background-color: #393939;
+    padding-top: 6%;
+}
+#blog{
+    background-color: #393939;/*or 565454 or 666666 272727 393939 1A1A1A*/
+    padding-top: 6%;
+}
+.one-fourth i{
+     color: #F0F0F0;
+     font-size: 500%;
+     padding: 10% 0 3% 0;
+ }
+h2 {
+    font-size: 250%;
+    font-weight: 700;
     text-align: center;
+    padding-top: 2%;
+    color: #F5F5F5;
 }
+h3{
+    font-size: 175%;
+    /*line-height: 500%;*/
+    <!-- 5% top and bottom & 0 left and right-->
+    padding-top: 500px;
+    font-weight: 400;
+    color: #FFFFFF; /* Or #000000 for black */
+}
+
 /*
 .banner{
     width: 100%;
